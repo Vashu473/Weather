@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+ {{>header}}
+ <title>Weather</title>
+  <body>
+     <!-- my js start -->
+    <script src="./script.js"></script>
+    <!-- my js over -->
+    <!-- nav bar  -->
+{{>nav}}
+    <!-- container start -->
+    <div class="container">
+      <!-- search -->
+      <div class="container">
+        <nav class="navbar navbar-light bg-light">
+          <div class="container-fluid">
+            <form class="d-flex" onsubmit="return false" id="form">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Enter city name"
+                aria-label="Search"
+                id="js-inp"
+              />
+              <button class="btn btn-outline-success" onclick="run()">
+                Search
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container p-d bg-opacity-75 bg-dark w-l b-r b o of-h">
+        <!-- date -->
+        <div class="container bg-dark p-d">
+          <div class="row py-2 px-2">
+            <div class="col" id="js-day"></div>
+            <div class="col t-e" id="js-date"></div>
+          </div>
+        </div>
+
+        <!-- city -->
+        <div class="container py-3 px-2 c" id="js-loc">Enter City Name</div>
+
+        <!-- result -->
+        <div class="container">
+          <div class="row py-4 px-2">
+            <div class="col fw-bold fs-1 m-f-s c" id="js-tem">0&deg; C</div>
+           <i id="js-w" class="col fw-bold fs-1 c py-1 t-c w-f p-n"> <i class="fas fa-sun col"></i> </i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container -->
+
+    <!-- footer -->
+   {{>footer}}
+
+{{>bottom}}
+    <!-- my js start -->
+    <script src="./script.js"></script>
+    <!-- my js over -->
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.mt {
+  margin-top: auto;
+}
+.card {
+  background-color: white !important;
+  border: none !important;
+}
+
+.card-body .btn {
+  margin: auto;
+  display: block;
+  width: fit-content;
+  box-shadow: 2px 2px grey;
+}
+
+.card-body .btn-primary {
+  background-color: rgb(241, 238, 238);
+  color: black;
+  border-radius: 10px;
+  border-color: black;
+}

@@ -1,0 +1,77 @@
+.w-l {
+  width: 40% !important;
+}
+.b-r {
+  border-radius: 10px;
+}
+.b {
+  border: 1px solid black;
+}
+.o {
+  outline: none;
+}
+.of-h {
+  overflow: hidden;
+}
+.p-d {
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+  color: white;
+}
+.t-e {
+  text-align: end;
+}
+.t-c {
+  text-align: center;
+}
+.w-f {
+  width: fit-content !important;
+}
+.p-n {
+  padding: 0% !important;
+}
+.container .container .navbar .container-fluid .d-flex {
+  width: 60%;
+  margin: auto;
+  color: white;
+  background-color: rgba(37, 36, 36, 0.87);
+  outline: none;
+  border-radius: 15px;
+}
+.container .container .navbar .container-fluid .d-flex:hover {
+  outline: none;
+}
+.container .container .navbar .container-fluid .d-flex input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+.container .container .navbar .container-fluid .d-flex .btn {
+  border-radius: 22px;
+  color: white;
+  background-color: rgba(52, 151, 233, 0.815);
+}
+.container .container .navbar .container-fluid .d-flex .btn:hover {
+  border-radius: 22px;
+}
+.bg-opacity-75 {
+  --bs-bg-opacity: 0.85 !important;
+}
+.c {
+  color: white;
+}
+@media screen and (min-width: 270px) and (max-width: 900px) {
+  .container .container .container .row .m-f-s {
+    font-size: calc(1.11rem + 1.5vw) !important;
+  }
+}
+
+/*  after */
+#form {
+  border-radius: 23px;
+}
+#js-inp {
+  font-size: 2rem;
+  padding: 10px;
+}

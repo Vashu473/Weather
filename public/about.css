@@ -1,0 +1,15 @@
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin: auto;
+}
+.p-b {
+  padding-bottom: 10px;
+}
+/* after */
+body {
+  font-size: 1.9rem !important;
+}
