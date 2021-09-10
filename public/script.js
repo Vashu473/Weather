@@ -1,5 +1,4 @@
-// const { runMain } = require("module");
-window.onload = () => {
+onload = () => {
   const jsDay = document.getElementById("js-day");
   const jsDate = document.getElementById("js-date");
 
