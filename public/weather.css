@@ -66,10 +66,10 @@
     font-size: calc(1.11rem + 1.5vw) !important;
   }
   .w-l {
-    width: 95% !important;
+    width: 100% !important;
   }
   #form {
-    width: 95%;
+    width: 100%;
   }
   #padd {
     padding: 0%;
